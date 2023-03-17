@@ -1,0 +1,213 @@
+body {
+    background-color: #F8FAFC;
+    margin: 0%;
+}
+
+.img.fundo{
+    top: 0px;
+}
+
+.imagem{
+    float: right;
+    position: absolute;
+    right: -10%;
+    top: 0;
+}
+
+.logoimg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 120px;
+    right: 73.36%;
+    top: 60px;
+    bottom: 13.91%;
+}
+
+.boxlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 384px;
+    height: 400px;
+    left: 140px;
+    top: 250px;
+}
+
+h1 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 55px;
+    margin-bottom: 0px;
+}
+
+.login{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+
+}
+
+#titleemail {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1E293B;
+    padding: 0px;
+    
+}
+
+#email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 10px;
+
+    width: 384px;
+    height: 20px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+    color: #94A3B8;
+    font-size: 16px;
+    
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+}
+
+#email:hover {
+    border-color: #7C3AED;
+} 
+#email:focus {
+    outline-color: #7C3AED;
+}
+#email:invalid {
+    border-color: red;
+}
+
+#titlepassword {
+    display: inline;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1E293B;
+    padding: 0px;
+    margin-right: 50%;
+}
+
+#forgetpassword {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7C3AED;;
+    padding: 0px;
+    margin-bottom: 8px;
+    display: inline;
+}
+
+#senha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 10px;
+
+    width: 384px;
+    height: 20px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+    color: #94A3B8;
+    font-size: 16px;
+
+    margin-top: 8px;
+}
+
+#senha:hover {
+    border-color: #7C3AED;
+} 
+#senha:focus {
+    outline-color: #7C3AED;
+}
+
+button {
+    background-color: #7C3AED;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 410px;
+    height: 56px;
+
+    
+    border-radius: 4px;
+
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+button:hover {
+    background-color: #9F67FF;
+}
+button:active {
+    background-color: #9F67FF;
+}
+
+#withoutlogin {
+    width: 263px;
+    height: 24px;
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #475569;
+
+    display: inline;
+}
+
+#subscribe {
+    width: 263px;
+    height: 24px;
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #7C3AED;
+
+    display: inline;
+}
+
+#subscribe:hover {
+    color: #9F67FF;
+}
+
+#subscribe:active {
+    color: #9F67FF;
+}
